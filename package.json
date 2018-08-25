@@ -1,0 +1,42 @@
+{
+  "name": "@sealsystems/release-notes-generator",
+  "version": "0.0.0",
+  "description": "Generate release notes from commit messages",
+  "bin": "bin/app.js",
+  "scripts": {
+    "bot": "bot",
+    "release": "bot release && npm publish",
+    "release-minor": "bot release --type minor && npm publish",
+    "release-major": "bot release --type major && npm publish",
+    "test": "bot test-units",
+    "coverage": "istanbul cover _mocha -- --recursive --ui tdd ",
+    "report": "npm run coverage && if [[ $OSTYPE == darwin* ]]; then open=open; else open=xdg-open; fi && $open coverage/lcov-report/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sealsystems/release-notes-generator.git"
+  },
+  "author": {
+    "name": "SEAL Systems AG",
+    "email": "support@sealsystems.de",
+    "url": "http://www.sealsystems.de"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sealsystems/release-notes-generator/issues"
+  },
+  "homepage": "https://github.com/sealsystems/release-notes-generator#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@semantic-release/release-notes-generator": "7.0.1",
+    "get-stream": "4.0.0",
+    "git-log-parser": "1.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-seal": "0.0.9",
+    "roboter": "0.16.0",
+    "roboter-server": "0.16.0"
+  }
+}
