@@ -9,5 +9,5 @@ Run this app from inside a git repository. You must provide the last and current
 Sample:
 
 ```shell
-npx release-notes-generator <previous version> <current version>
+npx @sealsystems/release-notes-generator <previous version> <current version>
 ```
