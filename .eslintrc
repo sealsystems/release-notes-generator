@@ -1,6 +1,3 @@
 {
-  "extends": "eslint-config-seal",
-  "parserOptions": {
-      "ecmaVersion": 2017
-  }
+  "extends": "@sealsystems/eslint-config-es"
 }
