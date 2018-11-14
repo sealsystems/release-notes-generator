@@ -30,9 +30,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@semantic-release/release-notes-generator": "7.0.1",
-    "get-stream": "4.0.0",
-    "git-log-parser": "1.2.0"
+    "@semantic-release/release-notes-generator": "7.1.4",
+    "get-stream": "4.1.0",
+    "git-log-parser": "1.2.0",
+    "git-remote-url": "1.0.1"
   },
   "devDependencies": {
     "@sealsystems/eslint-config-es": "1.1.1",
