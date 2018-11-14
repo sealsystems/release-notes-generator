@@ -1,6 +1,6 @@
 {
   "name": "@sealsystems/release-notes-generator",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Generate release notes from commit messages",
   "bin": "bin/app.js",
   "scripts": {
