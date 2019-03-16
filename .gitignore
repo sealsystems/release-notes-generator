@@ -4,6 +4,7 @@ npm-debug.log
 package-lock.json
 
 # Coverage
+.nyc_output/
 coverage/
 
 # VS Code
