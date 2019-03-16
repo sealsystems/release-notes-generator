@@ -36,13 +36,15 @@
   },
   "devDependencies": {
     "@sealsystems/eslint-config-es": "1.1.1",
+    "@sealsystems/semantic-release-config": "3.0.0",
     "eslint-config-seal": "0.0.9",
     "license-checker": "25.0.1",
     "nyc": "13.3.0",
     "roboter": "0.16.0",
-    "roboter-server": "0.16.0"
+    "roboter-server": "0.16.0",
+    "semantic-release": "15.13.3"
   },
   "release": {
-    "extends": "@sealsystems/semantic-release-config/node-binary"
+    "extends": "@sealsystems/semantic-release-config/node-module"
   }
 }
