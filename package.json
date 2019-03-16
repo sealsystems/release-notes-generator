@@ -37,6 +37,7 @@
   "devDependencies": {
     "@sealsystems/eslint-config-es": "1.1.1",
     "@sealsystems/semantic-release-config": "3.0.0",
+    "assertthat": "1.0.0",
     "eslint-config-seal": "0.0.9",
     "license-checker": "25.0.1",
     "nyc": "13.3.0",
