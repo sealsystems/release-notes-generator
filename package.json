@@ -5,9 +5,11 @@
   "bin": "bin/app.js",
   "scripts": {
     "bot": "bot",
+    "lint": "lint",
+    "lint:fix": "lint-fix",
     "licenses": "license-checker --production --csv",
     "release": "semantic-release --branch ${CIRCLE_BRANCH}",
-    "test": "bot test-units",
+    "test": "mocha",
     "coverage": "nyc --reporter=lcov mocha",
     "report": "npm run coverage && if [[ $OSTYPE == darwin* ]]; then open=open; else open=xdg-open; fi && $open coverage/lcov-report/index.html"
   },
@@ -30,20 +32,17 @@
   },
   "dependencies": {
     "@semantic-release/release-notes-generator": "7.1.4",
-    "get-stream": "4.1.0",
+    "get-stream": "5.0.0",
     "git-log-parser": "1.2.0",
     "git-remote-url": "1.0.1"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "1.1.1",
-    "@sealsystems/semantic-release-config": "3.0.0",
-    "assertthat": "1.0.0",
-    "eslint-config-seal": "0.0.9",
+    "@sealsystems/eslint-config-es": "3.2.3",
+    "@sealsystems/semantic-release-config": "3.2.0",
+    "assertthat": "2.0.3",
     "license-checker": "25.0.1",
-    "nyc": "13.3.0",
-    "roboter": "0.16.0",
-    "roboter-server": "0.16.0",
-    "semantic-release": "15.13.3"
+    "mocha": "6.0.2",
+    "nyc": "13.3.0"
   },
   "release": {
     "extends": "@sealsystems/semantic-release-config/node-module"

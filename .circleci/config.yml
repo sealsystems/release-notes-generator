@@ -1,3 +1,8 @@
+################################################################################
+# OPEN SOURCE MODULE
+# Remove the comment if you changed the build scripts!
+################################################################################
+
 version: 2
 
 x-environment: &environment
@@ -5,12 +10,12 @@ x-environment: &environment
   GIT_AUTHOR_NAME: CircleCI Build
   GIT_COMMITTER_EMAIL: com.git@sealsystems.de
   GIT_COMMITTER_NAME: CircleCI Build
-  NODE_VERSION: 8.9.4
+  LOG_LEVELS: fatal
 
 jobs:
   test:
     docker:
-      - image: circleci/node:8.9.4
+      - image: circleci/node:10
 
     environment:
       <<: *environment
@@ -24,7 +29,6 @@ jobs:
           command: |
             if [ ! -d ./node_modules ]; then
               npm install
-              npm install --no-save roboter-cli
             fi
       - save_cache: &save-cache
           key: dependency-cache-{{ checksum "package.json" }}
@@ -42,7 +46,7 @@ jobs:
 
   release:
     docker:
-      - image: 'circleci/node:8'
+      - image: 'circleci/node:10'
 
     environment:
       <<: *environment
