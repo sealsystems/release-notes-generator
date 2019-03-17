@@ -1,3 +1,14 @@
+## 0.3.2 (2019-03-17)
+
+### Chores
+
+
+#### Update scripts in package.json ([3b72160](https://github.com/sealsystems/release-notes-generator/commit/3b72160))
+
+
+
+---
+
 ## 0.3.1 (2019-03-17)
 
 ### Chores
