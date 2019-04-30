@@ -1,3 +1,14 @@
+## 0.3.3 (2019-04-30)
+
+### Bug Fixes
+
+
+#### Match headings with release note's index.md ([169035a](https://github.com/sealsystems/release-notes-generator/commit/169035a))
+
+
+
+---
+
 ## 0.3.2 (2019-03-17)
 
 ### Chores
