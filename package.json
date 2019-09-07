@@ -29,15 +29,15 @@
   },
   "homepage": "https://github.com/sealsystems/release-notes-generator#readme",
   "dependencies": {
-    "@semantic-release/release-notes-generator": "7.1.4",
-    "get-stream": "5.0.0",
+    "@semantic-release/release-notes-generator": "7.3.0",
+    "get-stream": "5.1.0",
     "git-log-parser": "1.2.0",
     "git-remote-url": "1.0.1"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "sealsystems/node-eslint-config-es",
-    "@sealsystems/mocha": "sealsystems/node-mocha",
-    "@sealsystems/semantic-release": "sealsystems/node-semantic-release",
+    "@sealsystems/eslint-config-es": "3.3.13",
+    "@sealsystems/mocha": "3.0.13",
+    "@sealsystems/semantic-release": "4.0.10",
     "license-checker": "25.0.1"
   },
   "release": {
