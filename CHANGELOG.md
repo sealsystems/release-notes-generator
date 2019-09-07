@@ -1,3 +1,22 @@
+## 0.3.16 (2019-09-07)
+
+### Chores
+
+
+#### Reference other build-related modules by repository name ([2588d7d](https://github.com/sealsystems/release-notes-generator/commit/2588d7d))
+
+#### bump [@sealsystems](https://github.com/sealsystems)/eslint-config-es ([ae5a8f5](https://github.com/sealsystems/release-notes-generator/commit/ae5a8f5))
+
+Bumps [@sealsystems/eslint-config-es](https://github.com/sealsystems/node-eslint-config-es) from 3.3.10 to 3.3.11.
+- [Release notes](https://github.com/sealsystems/node-eslint-config-es/releases)
+- [Changelog](https://github.com/sealsystems/node-eslint-config-es/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/sealsystems/node-eslint-config-es/compare/3.3.10...3.3.11)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
 ## 0.3.15 (2019-09-07)
 
 ### Chores
