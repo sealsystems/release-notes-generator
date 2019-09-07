@@ -1,3 +1,14 @@
+## 0.3.18 (2019-09-07)
+
+### Chores
+
+
+#### Update dependencies ([d35b624](https://github.com/sealsystems/release-notes-generator/commit/d35b624))
+
+
+
+---
+
 ## 0.3.17 (2019-09-07)
 
 ### Chores
