@@ -35,7 +35,7 @@
     "git-remote-url": "1.0.1"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.3.10",
+    "@sealsystems/eslint-config-es": "3.3.11",
     "@sealsystems/mocha": "3.0.8",
     "@sealsystems/semantic-release": "4.0.8",
     "@sealsystems/test-config-mocha": "1.0.5",
