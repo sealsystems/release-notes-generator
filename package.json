@@ -35,16 +35,9 @@
     "git-remote-url": "1.0.1"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@sealsystems/eslint-config-es": "sealsystems/node-eslint-config-es",
     "@sealsystems/mocha": "sealsystems/node-mocha",
     "@sealsystems/semantic-release": "sealsystems/node-semantic-release",
-=======
-    "@sealsystems/eslint-config-es": "3.3.10",
-    "@sealsystems/mocha": "3.0.8",
-    "@sealsystems/semantic-release": "4.0.6",
-    "@sealsystems/test-config-mocha": "1.0.5",
->>>>>>> 654578a964ab311814aabe1bac1ecfc8e6ee0957
     "license-checker": "25.0.1"
   },
   "release": {
