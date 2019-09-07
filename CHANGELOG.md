@@ -1,3 +1,14 @@
+## 0.3.17 (2019-09-07)
+
+### Chores
+
+
+#### Remove devDependencies from Dependabot config to prevent endless loop ([654497e](https://github.com/sealsystems/release-notes-generator/commit/654497e))
+
+
+
+---
+
 ## 0.3.16 (2019-09-07)
 
 ### Chores
