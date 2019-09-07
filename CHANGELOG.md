@@ -1,3 +1,20 @@
+## 0.3.4 (2019-09-07)
+
+### Chores
+
+
+#### update [@sealsystems](https://github.com/sealsystems)/test-config-mocha requirement ([09e0224](https://github.com/sealsystems/release-notes-generator/commit/09e0224))
+
+Updates the requirements on [@sealsystems/test-config-mocha](https://github.com/sealsystems/node-test-config-mocha) to permit the latest version.
+- [Release notes](https://github.com/sealsystems/node-test-config-mocha/releases)
+- [Changelog](https://github.com/sealsystems/node-mocha/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/sealsystems/node-test-config-mocha/compare/1.0.3...1.0.5)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
 ## 0.3.3 (2019-04-30)
 
 ### Bug Fixes
