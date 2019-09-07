@@ -35,14 +35,14 @@
     "git-remote-url": "1.0.1"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.2.3",
-    "@sealsystems/semantic-release-config": "3.3.0",
+    "@sealsystems/eslint-config-es": "3.3.6",
+    "@sealsystems/mocha": "3.0.1",
+    "@sealsystems/semantic-release": "4.0.2",
     "@sealsystems/test-config-mocha": "1.0.3",
-    "assertthat": "2.0.3",
     "license-checker": "25.0.1"
   },
   "release": {
-    "extends": "@sealsystems/semantic-release-config/node-module"
+    "extends": "@sealsystems/semantic-release/node-module"
   },
   "publishConfig": {
     "access": "public"
