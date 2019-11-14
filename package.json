@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/sealsystems/release-notes-generator#readme",
   "dependencies": {
-    "@semantic-release/release-notes-generator": "7.3.0",
+    "@semantic-release/release-notes-generator": "7.3.3",
     "get-stream": "5.1.0",
     "git-log-parser": "1.2.0",
     "git-remote-url": "1.0.1"
