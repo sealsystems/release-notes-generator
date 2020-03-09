@@ -35,15 +35,16 @@
     "git-remote-url": "1.0.1"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.3.14",
-    "@sealsystems/mocha": "3.0.13",
-    "@sealsystems/semantic-release": "4.0.11",
+    "@sealsystems/eslint-config-es": "3.6.2",
+    "@sealsystems/mocha": "4.1.4",
+    "@sealsystems/semantic-release": "4.0.20",
     "license-checker": "25.0.1"
   },
   "release": {
     "extends": "@sealsystems/semantic-release/node-module"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
