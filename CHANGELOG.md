@@ -1,3 +1,25 @@
+## 0.3.21 (2020-03-09)
+
+### Chores
+
+
+#### bump [@semantic-release](https://github.com/semantic-release)/release-notes-generator ([ecbe7d5](https://github.com/sealsystems/release-notes-generator/commit/ecbe7d5))
+
+Bumps [@semantic-release/release-notes-generator](https://github.com/semantic-release/release-notes-generator) from 7.3.0 to 9.0.0.
+- [Release notes](https://github.com/semantic-release/release-notes-generator/releases)
+- [Commits](https://github.com/semantic-release/release-notes-generator/compare/v7.3.0...v9.0.0)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+#### bump [@semantic-release](https://github.com/semantic-release)/release-notes-generator from 9.0.0 to 9.0.1 ([57038de](https://github.com/sealsystems/release-notes-generator/commit/57038de))
+
+#### bump handlebars from 4.2.0 to 4.7.3 ([56984d9](https://github.com/sealsystems/release-notes-generator/commit/56984d9))
+
+#### bump npm from 6.11.3 to 6.13.4 ([bbd4e58](https://github.com/sealsystems/release-notes-generator/commit/bbd4e58))
+
+
+
+---
+
 ## 0.3.20 (2019-09-07)
 
 ### Chores
