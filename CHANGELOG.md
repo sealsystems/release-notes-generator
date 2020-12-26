@@ -1,3 +1,12 @@
+## 0.3.22 (2020-12-26)
+
+### Chores
+
+
+Trigger release ([1b384dc](https://github.com/sealsystems/release-notes-generator/commit/1b384dc))
+
+Update build config ([8452afd](https://github.com/sealsystems/release-notes-generator/commit/8452afd))
+
 ## 0.3.21 (2020-03-09)
 
 ### Chores
